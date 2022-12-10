@@ -18,7 +18,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TcsValidationProjectApplication implements CommandLineRunner {
     private final Logger logger = LoggerFactory.getLogger(TcsValidationProjectApplication.class);
     
-    
     @Autowired
     XMLValidatorService xmlValidatorService;
 	
